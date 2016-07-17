@@ -11,7 +11,7 @@ def parse_student_name(str):
     '''
     names = str.split(',')
     if len(names) >= 2:
-        return (names[1].strip(), names[0].strip())
+        return (names[0].strip(), names[1].strip())
     else:
         return names[0]
         
